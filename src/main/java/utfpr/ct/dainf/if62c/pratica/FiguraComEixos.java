@@ -9,7 +9,7 @@ package utfpr.ct.dainf.if62c.pratica;
  *
  * @author User
  */
-public interface FiguraComEixos {
+public interface FiguraComEixos extends Figura {
     public double getEixoMenor();
     public double getEixoMaior();
     
