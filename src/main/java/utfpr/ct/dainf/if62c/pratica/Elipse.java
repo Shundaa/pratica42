@@ -30,5 +30,11 @@ public class Elipse {
     public double getPerimetro(){
         return (Math.PI*(3*(eixomaior+eixomenor)-Math.sqrt(((3*eixomaior)+eixomenor)*((3*eixomenor)+eixomaior))));
     }
+    public double getEixoMaior(){
+        return eixomaior;
+    }
+    public double getEixoMenor(){
+        return eixomenor;
+    }
     
 }
