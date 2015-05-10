@@ -24,6 +24,7 @@ public class Pratica42 {
         System.out.println(maroto2.getEixoMenor());
         System.out.println(maroto.getEixoMenor());
         System.out.println(maroto.getEixoMaior());
+        System.out.println(maroto2.getEixoMaior());
     }
     
 }
