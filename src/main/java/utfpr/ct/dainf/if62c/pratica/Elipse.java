@@ -5,11 +5,12 @@
  */
 package utfpr.ct.dainf.if62c.pratica;
 
+
 /**
  *
  * @authoR yolo
  */
-public class Elipse {
+public class Elipse implements FiguraComEixos {
     private double eixomaior;
     private double eixomenor;
 
@@ -30,9 +31,11 @@ public class Elipse {
     public double getPerimetro(){
         return (Math.PI*(3*(eixomaior+eixomenor)-Math.sqrt(((3*eixomaior)+eixomenor)*((3*eixomenor)+eixomaior))));
     }
+    @Override
     public double getEixoMaior(){
         return eixomaior;
     }
+    @Override
     public double getEixoMenor(){
         return eixomenor;
     }
